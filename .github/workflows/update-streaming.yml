@@ -8,10 +8,6 @@ on:
 permissions:
   contents: write
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   update-streaming:
     runs-on: ubuntu-latest
@@ -29,19 +25,8 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: List repo files
-        run: |
-          echo "=== Repo contents ==="
-          ls -la
-          echo ""
-          echo "=== Python files ==="
-          ls -la *.py || echo "No .py files found"
-          echo ""
-          echo "=== JSON files ==="
-          ls -la *.json || echo "No .json files found"
-          echo ""
-          echo "=== HTML files ==="
-          ls -la *.html || echo "No .html files found"
+      - name: List all files (debug)
+        run: ls -la
 
       - name: Fetch streaming data
         run: python3 fetch_streaming.py
@@ -56,5 +41,5 @@ jobs:
           git config user.name  "MovieMatch Bot"
           git config user.email "moviematch-bot@users.noreply.github.com"
           git add movie_database_streaming.json MovieMatch*.html movies.json
-          git diff --staged --quiet || git commit -m "🎬 Weekly streaming update $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "Weekly streaming update $(date +%Y-%m-%d)"
           git push
