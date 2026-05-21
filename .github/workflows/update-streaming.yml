@@ -2,13 +2,15 @@ name: Weekly Streaming Update
 
 on:
   schedule:
-    # Every Monday at 2:00am UTC (12pm AEST / 1pm AEDT)
     - cron: '0 2 * * 1'
   workflow_dispatch:
-    # Allows manual trigger from GitHub Actions tab
 
 permissions:
   contents: write
+
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   update-streaming:
@@ -18,46 +20,38 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        env:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-        env:
-          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - name: Install dependencies
         run: pip install requests
 
-      - name: Check required files exist
+      - name: List repo files
         run: |
-          echo "Files in repo:"
+          echo "=== Repo contents ==="
           ls -la
-          if [ ! -f "fetch_streaming.py" ]; then
-            echo "ERROR: fetch_streaming.py not found"
-            exit 1
-          fi
-          if [ ! -f "rebuild_app.py" ]; then
-            echo "ERROR: rebuild_app.py not found"
-            exit 1
-          fi
-          if [ ! -f "movie_database_streaming.json" ]; then
-            echo "ERROR: movie_database_streaming.json not found"
-            exit 1
-          fi
-          echo "All required files present"
+          echo ""
+          echo "=== Python files ==="
+          ls -la *.py || echo "No .py files found"
+          echo ""
+          echo "=== JSON files ==="
+          ls -la *.json || echo "No .json files found"
+          echo ""
+          echo "=== HTML files ==="
+          ls -la *.html || echo "No .html files found"
 
-      - name: Fetch streaming data (incremental)
+      - name: Fetch streaming data
         run: python3 fetch_streaming.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
-      - name: Rebuild MovieMatch app
+      - name: Rebuild app
         run: python3 rebuild_app.py movie_database_streaming.json
 
-      - name: Commit and push updates
+      - name: Commit and push
         run: |
           git config user.name  "MovieMatch Bot"
           git config user.email "moviematch-bot@users.noreply.github.com"
