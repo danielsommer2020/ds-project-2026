@@ -1,0 +1,45 @@
+name: Weekly Streaming Update
+
+on:
+  schedule:
+    # Every Monday at 2:00am UTC (12pm AEST / 1pm AEDT)
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+    # Also allows manual trigger from GitHub Actions tab
+
+permissions:
+  contents: write   # needed to commit and push back to the repo
+
+jobs:
+  update-streaming:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch streaming data (incremental)
+        run: python3 fetch_streaming.py
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
+      - name: Rebuild MovieMatch app
+        run: python3 rebuild_app.py movie_database_streaming.json
+
+      - name: Commit and push updates
+        run: |
+          git config user.name  "MovieMatch Bot"
+          git config user.email "moviematch-bot@users.noreply.github.com"
+          git add movie_database_streaming.json MovieMatch*.html movies.json
+          # Only commit if something actually changed
+          git diff --staged --quiet || git commit -m "🎬 Weekly streaming update $(date +%Y-%m-%d)"
+          git push
