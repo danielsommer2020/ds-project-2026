@@ -5,10 +5,10 @@ on:
     # Every Monday at 2:00am UTC (12pm AEST / 1pm AEDT)
     - cron: '0 2 * * 1'
   workflow_dispatch:
-    # Also allows manual trigger from GitHub Actions tab
+    # Allows manual trigger from GitHub Actions tab
 
 permissions:
-  contents: write   # needed to commit and push back to the repo
+  contents: write
 
 jobs:
   update-streaming:
@@ -18,14 +18,36 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
       - name: Install dependencies
         run: pip install requests
+
+      - name: Check required files exist
+        run: |
+          echo "Files in repo:"
+          ls -la
+          if [ ! -f "fetch_streaming.py" ]; then
+            echo "ERROR: fetch_streaming.py not found"
+            exit 1
+          fi
+          if [ ! -f "rebuild_app.py" ]; then
+            echo "ERROR: rebuild_app.py not found"
+            exit 1
+          fi
+          if [ ! -f "movie_database_streaming.json" ]; then
+            echo "ERROR: movie_database_streaming.json not found"
+            exit 1
+          fi
+          echo "All required files present"
 
       - name: Fetch streaming data (incremental)
         run: python3 fetch_streaming.py
@@ -40,6 +62,5 @@ jobs:
           git config user.name  "MovieMatch Bot"
           git config user.email "moviematch-bot@users.noreply.github.com"
           git add movie_database_streaming.json MovieMatch*.html movies.json
-          # Only commit if something actually changed
           git diff --staged --quiet || git commit -m "🎬 Weekly streaming update $(date +%Y-%m-%d)"
           git push
