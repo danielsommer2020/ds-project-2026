@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
@@ -25,8 +25,26 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: List all files (debug)
-        run: ls -la
+      - name: Debug — list files and check Python
+        run: |
+          echo "=== Files in repo ==="
+          ls -la
+          echo ""
+          echo "=== Python version ==="
+          python3 --version
+          echo ""
+          echo "=== Check script syntax ==="
+          python3 -m py_compile fetch_streaming.py && echo "fetch_streaming.py OK"
+          python3 -m py_compile rebuild_app.py && echo "rebuild_app.py OK"
+          echo ""
+          echo "=== API key set? ==="
+          if [ -z "$TMDB_API_KEY" ]; then
+            echo "WARNING: TMDB_API_KEY is empty — using hardcoded fallback"
+          else
+            echo "TMDB_API_KEY is set (${#TMDB_API_KEY} chars)"
+          fi
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
       - name: Fetch streaming data
         run: python3 fetch_streaming.py
