@@ -1,17 +1,19 @@
-name: Weekly Streaming Update
+name: Weekly Update — Streaming + New Titles
 
 on:
   schedule:
-    - cron: '0 2 * * 1'
+    # 2am Monday Sydney time (AEST UTC+10 = 4pm Sunday UTC)
+    # Using 3pm UTC Sunday to safely cover both AEST and AEDT
+    - cron: '0 15 * * 0'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update-streaming:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repo
@@ -23,31 +25,40 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests aiohttp
 
-      - name: List all files (debug)
+      - name: List repo files
         run: ls -la
 
-      - name: Fetch movie streaming data
+      # ── Step 1: Add new titles (movies + TV) ──────────────────────────
+      - name: Fetch new titles (40 movies + 40 TV shows)
+        run: python3 fetch_new_titles.py
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+
+      # ── Step 2: Refresh streaming for ALL titles (new + stale) ────────
+      - name: Refresh movie streaming data
         run: python3 fetch_streaming.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
-      - name: Fetch TV show streaming data
+      - name: Refresh TV streaming data
         run: python3 fetch_tv_streaming.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
-      - name: Rebuild app (movies.json + MovieMatch.html)
+      # ── Step 3: Rebuild app files ──────────────────────────────────────
+      - name: Rebuild movies.json + index.html
         run: python3 rebuild_app.py movie_database_streaming.json
 
-      - name: Rebuild TV shows (tvshows.json)
+      - name: Rebuild tvshows.json
         run: python3 rebuild_tv.py
 
-      - name: Commit and push
+      # ── Step 4: Commit and push ────────────────────────────────────────
+      - name: Commit and push updates
         run: |
           git config user.name  "MovieMatch Bot"
           git config user.email "moviematch-bot@users.noreply.github.com"
-          git add movie_database_streaming.json index.html MovieMatch*.html movies.json tvshows.json
-          git diff --staged --quiet || git commit -m "Weekly streaming update $(date +%Y-%m-%d)"
+          git add movie_database_streaming.json index.html movies.json tvshows.json
+          git diff --staged --quiet || git commit -m "Weekly update $(date +%Y-%m-%d) — new titles + streaming refresh"
           git push
