@@ -151,7 +151,7 @@ async def fetch_new_movies(session, existing_dupes, semaphore):
                               {'append_to_response': 'credits,videos'})
         await asyncio.sleep(0.05)
 
-        genre_ids = [g['id'] for g in m.get('genre_ids',[]) or []]
+        genre_ids = [g if isinstance(g,int) else g['id'] for g in (m.get('genre_ids') or [])]
         genre     = map_genre(genre_ids, GENRE_MAP)
         poster    = f"https://image.tmdb.org/t/p/w500{m['poster_path']}" \
                     if m.get('poster_path') else ''
@@ -237,7 +237,7 @@ async def fetch_new_shows(session, existing_dupes, semaphore):
                               {'append_to_response': 'credits,videos'})
         await asyncio.sleep(0.05)
 
-        genre_ids = [g['id'] for g in s.get('genre_ids',[]) or []]
+        genre_ids = [g if isinstance(g,int) else g['id'] for g in (s.get('genre_ids') or [])]
         genre     = map_genre(genre_ids, TV_GENRE_MAP)
         poster    = f"https://image.tmdb.org/t/p/w500{s['poster_path']}" \
                     if s.get('poster_path') else ''
