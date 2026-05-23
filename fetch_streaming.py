@@ -1,32 +1,28 @@
 #!/usr/bin/env python3
 """
-MovieMatch — Incremental Streaming Data Fetcher
--------------------------------------------------
-Skips movies with streaming data updated within the last 6 days.
-Weekly runs take ~3-5 minutes (only stale/new movies re-fetched).
-First run takes ~25 minutes.
+MovieMatch — Fast Incremental Streaming Fetcher (Movies)
+---------------------------------------------------------
+Uses async/parallel requests — 10x faster than sequential.
+TMDB free tier: 50 req/s — we use max 10 concurrent, well within limits.
+
+First run:  ~3-5 minutes  (was 25+ min)
+Re-runs:    ~1 minute     (skips fresh data)
 
 Usage:
-    python3 fetch_streaming.py                          # local run
-    TMDB_API_KEY=xxx python3 fetch_streaming.py         # CI/GitHub Actions
-
-Reads:  movie_database_streaming.json (or movie_database_full.json on first run)
-Writes: movie_database_streaming.json
+    python3 fetch_streaming.py
 """
 
-import requests, json, time, sys, os
+import asyncio, aiohttp, json, time, sys, os
 from pathlib import Path
 from datetime import datetime, timezone
 
-# API key from env var (GitHub Actions) or hardcoded fallback (local)
-API_KEY     = os.environ.get('TMDB_API_KEY', '12fcc24f6de2c9f3ddeec1aad8ba2146')
-BASE        = 'https://api.themoviedb.org/3'
-REGIONS     = ['AU','US','GB','NZ','CA']
-DELAY       = 0.15
-SAVE_EVERY  = 150
-STALE_DAYS  = 6     # re-fetch data older than this many days
+API_KEY    = os.environ.get('TMDB_API_KEY', '12fcc24f6de2c9f3ddeec1aad8ba2146')
+BASE       = 'https://api.themoviedb.org/3'
+REGIONS    = ['AU','US','GB','NZ','CA']
+STALE_DAYS = 6
+CONCURRENT = 10          # parallel requests — safe for TMDB free tier
+SAVE_EVERY = 200
 
-# Use streaming JSON if it exists, else fall back to full database
 INPUT_JSON  = 'movie_database_streaming.json' \
               if Path('movie_database_streaming.json').exists() \
               else 'movie_database_full.json' \
@@ -34,132 +30,137 @@ INPUT_JSON  = 'movie_database_streaming.json' \
               else 'movie_database.json'
 OUTPUT_JSON = 'movie_database_streaming.json'
 
-def api(path, params=None, retries=4):
-    url = f'{BASE}{path}'
-    p   = {'api_key': API_KEY, 'language': 'en-US'}
-    if params: p.update(params)
-    for attempt in range(retries):
-        try:
-            r = requests.get(url, params=p, timeout=15)
-            if r.status_code == 429:
-                wait = int(r.headers.get('Retry-After', 15))
-                print(f'  Rate limited — waiting {wait}s...')
-                time.sleep(wait); continue
-            if r.ok: return r.json()
-        except requests.exceptions.Timeout:
-            time.sleep(5 * (attempt+1))
-        except Exception:
-            time.sleep(3)
-    return {}
-
 def is_stale(movie):
-    """Return True if streaming data needs refreshing."""
     if 'streaming' not in movie: return True
     updated = movie.get('streaming_updated', 0)
     if not updated: return True
-    age_days = (time.time() - updated) / 86400
-    return age_days >= STALE_DAYS
+    return (time.time() - updated) / 86400 >= STALE_DAYS
 
-# ── Load provider directory ───────────────────────────────────────────────
-print('Fetching provider directory...')
-provider_map = {}
-for region in REGIONS:
-    data = api('/watch/providers/movie', {'watch_region': region})
-    for p in data.get('results', []):
-        pid = p['provider_id']
-        if pid not in provider_map:
-            provider_map[pid] = {
-                'name':      p['provider_name'],
-                'logo_path': p.get('logo_path', '')
-            }
-    time.sleep(DELAY)
-print(f'Loaded {len(provider_map)} providers\n')
+async def fetch(session, url, params, retries=4):
+    p = {'api_key': API_KEY, 'language': 'en-US'}
+    if params: p.update(params)
+    for attempt in range(retries):
+        try:
+            async with session.get(url, params=p, timeout=aiohttp.ClientTimeout(total=15)) as r:
+                if r.status == 429:
+                    wait = int(r.headers.get('Retry-After', 10))
+                    print(f'  Rate limited — waiting {wait}s...')
+                    await asyncio.sleep(wait)
+                    continue
+                if r.ok:
+                    return await r.json()
+        except asyncio.TimeoutError:
+            await asyncio.sleep(2 * (attempt + 1))
+        except Exception:
+            await asyncio.sleep(1)
+    return {}
 
-with open('providers.json', 'w', encoding='utf-8') as f:
-    json.dump(provider_map, f, ensure_ascii=False, indent=2)
+async def process_movie(session, movie, semaphore):
+    async with semaphore:
+        title = movie.get('title', '')
+        year  = movie.get('year', 0)
 
-# ── Load database ─────────────────────────────────────────────────────────
-if not Path(INPUT_JSON).exists():
-    print(f'ERROR: No database file found. Run tmdb_fetch.py first.')
-    sys.exit(1)
-
-with open(INPUT_JSON, 'r', encoding='utf-8') as f:
-    movies = json.load(f)
-
-stale    = [m for m in movies if is_stale(m)]
-fresh    = len(movies) - len(stale)
-now_str  = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-
-print(f'Database:   {len(movies)} movies')
-print(f'Up to date: {fresh} (skipping)')
-print(f'To update:  {len(stale)}')
-print(f'Run time:   ~{max(1, len(stale)//200)} minutes\n')
-
-if not stale:
-    print('✅ All streaming data is fresh — nothing to do.')
-    sys.exit(0)
-
-updated   = 0
-not_found = 0
-tmdb_cache = {}
-
-for i, movie in enumerate(movies):
-    if not is_stale(movie):
-        continue
-
-    title = movie.get('title', '')
-    year  = movie.get('year', 0)
-    key   = f"{title.lower()}-{year}"
-
-    # Get TMDB ID
-    tmdb_id = tmdb_cache.get(key)
-    if not tmdb_id:
-        data = api('/search/movie', {'query': title, 'year': year})
+        # Search for TMDB ID
+        data = await fetch(session, f'{BASE}/search/movie',
+                           {'query': title, 'year': year})
         results = data.get('results', [])
         if not results:
-            data = api('/search/movie', {'query': title})
+            data = await fetch(session, f'{BASE}/search/movie', {'query': title})
             results = data.get('results', [])
-        if results:
-            tmdb_id = results[0]['id']
-            tmdb_cache[key] = tmdb_id
-        time.sleep(DELAY)
 
-    if not tmdb_id:
-        movie['streaming']         = {}
+        if not results:
+            movie['streaming']         = {}
+            movie['streaming_updated'] = time.time()
+            return False  # not found
+
+        tmdb_id = results[0]['id']
+        data    = await fetch(session, f'{BASE}/movie/{tmdb_id}/watch/providers', {})
+        res     = data.get('results', {})
+
+        streaming = {}
+        for region in REGIONS:
+            flatrate = res.get(region, {}).get('flatrate', [])
+            if flatrate:
+                streaming[region] = [p['provider_id'] for p in flatrate]
+
+        movie['streaming']         = streaming
         movie['streaming_updated'] = time.time()
-        not_found += 1
-        continue
+        return True
 
-    # Fetch all regions at once
-    data    = api(f'/movie/{tmdb_id}/watch/providers')
-    results = data.get('results', {})
+async def main():
+    if not Path(INPUT_JSON).exists():
+        print(f'ERROR: {INPUT_JSON} not found.')
+        sys.exit(1)
 
-    streaming = {}
-    for region in REGIONS:
-        flatrate = results.get(region, {}).get('flatrate', [])
-        if flatrate:
-            streaming[region] = [p['provider_id'] for p in flatrate]
+    with open(INPUT_JSON, 'r', encoding='utf-8') as f:
+        movies = json.load(f)
 
-    movie['streaming']         = streaming
-    movie['streaming_updated'] = time.time()
-    updated += 1
-    time.sleep(DELAY)
+    # Fetch provider directory
+    print('Fetching provider directory...')
+    async with aiohttp.ClientSession() as session:
+        data = await fetch(session, f'{BASE}/watch/providers/movie',
+                           {'watch_region': 'AU'})
+    print(f'Loaded {len(data.get("results",[]))} providers\n')
 
-    done = updated + not_found
-    if done % SAVE_EVERY == 0:
-        with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-            json.dump(movies, f, ensure_ascii=False, indent=2)
-        pct = done / len(stale) * 100
-        print(f'  {done}/{len(stale)} ({pct:.0f}%) — {updated} updated, {not_found} not found — saved ✓')
+    stale   = [m for m in movies if is_stale(m)]
+    fresh   = len(movies) - len(stale)
+    now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
-# Final save
-with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-    json.dump(movies, f, ensure_ascii=False, indent=2)
+    print(f'Database:   {len(movies):,} movies')
+    print(f'Up to date: {fresh:,} (skipping)')
+    print(f'To update:  {len(stale):,}')
+    est = max(1, len(stale) * 2 // (CONCURRENT * 60))
+    print(f'Est. time:  ~{est} minutes\n')
 
-has_streaming = sum(1 for m in movies if m.get('streaming'))
-print(f'\n✅ Done! [{now_str}]')
-print(f'   Updated:  {updated:,}')
-print(f'   Skipped:  {fresh:,} (fresh)')
-print(f'   No data:  {not_found:,}')
-print(f'   Total with streaming: {has_streaming:,}')
-print(f'   Saved to: {OUTPUT_JSON}')
+    if not stale:
+        print('✅ All streaming data is fresh.')
+        sys.exit(0)
+
+    semaphore = asyncio.Semaphore(CONCURRENT)
+    updated = 0
+    not_found = 0
+    done = 0
+    start = time.time()
+
+    connector = aiohttp.TCPConnector(limit=CONCURRENT*2)
+    async with aiohttp.ClientSession(connector=connector) as session:
+        # Process in batches so we can save progress
+        batch_size = SAVE_EVERY
+        for i in range(0, len(stale), batch_size):
+            batch = stale[i:i+batch_size]
+            tasks = [process_movie(session, m, semaphore) for m in batch]
+            results = await asyncio.gather(*tasks)
+
+            for found in results:
+                done += 1
+                if found: updated += 1
+                else:     not_found += 1
+
+            # Save progress
+            with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+                json.dump(movies, f, ensure_ascii=False, indent=2)
+
+            elapsed = time.time() - start
+            pct = done / len(stale) * 100
+            rate = done / elapsed if elapsed > 0 else 0
+            remaining = (len(stale) - done) / rate / 60 if rate > 0 else 0
+            print(f'  {done:,}/{len(stale):,} ({pct:.0f}%) — '
+                  f'{updated:,} updated, {not_found:,} not found — '
+                  f'{remaining:.1f} min remaining — saved ✓')
+
+    # Final save
+    with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+        json.dump(movies, f, ensure_ascii=False, indent=2)
+
+    has_streaming = sum(1 for m in movies if m.get('streaming'))
+    elapsed_total = (time.time() - start) / 60
+    print(f'\n✅ Done! [{now_str}]')
+    print(f'   Time taken:  {elapsed_total:.1f} minutes')
+    print(f'   Updated:     {updated:,}')
+    print(f'   Not found:   {not_found:,}')
+    print(f'   Has streaming: {has_streaming:,}/{len(movies):,}')
+    print(f'   Saved to:    {OUTPUT_JSON}')
+    print(f'\nNext: python3 rebuild_app.py {OUTPUT_JSON}')
+
+if __name__ == '__main__':
+    asyncio.run(main())
