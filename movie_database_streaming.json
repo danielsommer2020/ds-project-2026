@@ -152178,5 +152178,996 @@
       "US": "PG-13"
     },
     "streaming_updated": 1779597102.437155
+  },
+  {
+    "title": "Tom Clancy's Jack Ryan: Ghost War",
+    "year": 2026,
+    "genre": "Action",
+    "rating": 7.2,
+    "director": "Andrew Bernstein",
+    "cast": "John Krasinski, Sienna Miller, Wendell Pierce, Michael Kelly, Max Beesley",
+    "plot": "Jack Ryan is reluctantly pulled back into espionage when an international covert mission unravels a deadly conspiracy. Racing against time, he joins CIA allies Mike November & James Greer and sharp MI6 officer Emma Marlo",
+    "poster": "https://image.tmdb.org/t/p/w500/8ehYxUh5MWE41AeE9gkHE8DKzvB.jpg",
+    "runtime": 107,
+    "trailer": "-4ZVFspRn3M",
+    "streaming": {
+      "AU": [
+        119,
+        2100
+      ],
+      "US": [
+        9,
+        2100
+      ],
+      "GB": [
+        9,
+        2100
+      ],
+      "NZ": [
+        119
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779637904.0814943
+  },
+  {
+    "title": "Obsession",
+    "year": 2026,
+    "genre": "Horror",
+    "rating": 7.9,
+    "director": "Curry Barker",
+    "cast": "Michael Johnston, Inde Navarrette, Cooper Tomlinson, Megan Lawless, Andy Richter",
+    "plot": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+    "poster": "https://image.tmdb.org/t/p/w500/40I66L7QKguTFDPvcLcdiTbAD7I.jpg",
+    "runtime": 108,
+    "trailer": "gMC8kkwbIQQ",
+    "streaming": {},
+    "streaming_updated": 1779637904.2422602
+  },
+  {
+    "title": "The Punisher: One Last Kill",
+    "year": 2026,
+    "genre": "Action",
+    "rating": 8.5,
+    "director": "Reinaldo Marcus Green",
+    "cast": "Jon Bernthal, Deborah Ann Woll, Jason R. Moore, Judith Light, Kelli Barrett",
+    "plot": "As Frank Castle searches for meaning beyond revenge, an unexpected force pulls him back into the fight.",
+    "poster": "https://image.tmdb.org/t/p/w500/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
+    "runtime": 51,
+    "trailer": "oSeqs_xeqv4",
+    "streaming": {
+      "AU": [
+        337
+      ],
+      "US": [
+        337
+      ],
+      "GB": [
+        337
+      ],
+      "NZ": [
+        337
+      ],
+      "CA": [
+        337
+      ]
+    },
+    "streaming_updated": 1779637904.4567082
+  },
+  {
+    "title": "Remarkably Bright Creatures",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 8.5,
+    "director": "Olivia Newman",
+    "cast": "Sally Field, Lewis Pullman, Colm Meaney, Alfred Molina, Joan Chen",
+    "plot": "Through unlikely bonds formed during night shifts at a local aquarium, Tova, an elderly widow, learns of a life-changing discovery that may bring her joy and wonder once again.",
+    "poster": "https://image.tmdb.org/t/p/w500/9HcEqn3D4J6b2Z0jK54id9nA0fr.jpg",
+    "runtime": 114,
+    "trailer": "b14IFe4an5k",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637904.6251152
+  },
+  {
+    "title": "The Sheep Detectives",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 7.7,
+    "director": "Kyle Balda",
+    "cast": "Hugh Jackman, Julia Louis-Dreyfus, Emma Thompson, Nicholas Braun, Nicholas Galitzine",
+    "plot": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must becom",
+    "poster": "https://image.tmdb.org/t/p/w500/9IL11HEZSwQOr2wVlF9gFQ1V8Ul.jpg",
+    "runtime": 109,
+    "trailer": "826SRt1CFbg",
+    "streaming": {},
+    "streaming_updated": 1779637904.7942772
+  },
+  {
+    "title": "Swapped",
+    "year": 2026,
+    "genre": "Animation",
+    "rating": 9.0,
+    "director": "Nathan Greno",
+    "cast": "Michael B. Jordan, Juno Temple, Tracy Morgan, Cedric the Entertainer, Justina Machado",
+    "plot": "A small woodland creature and a majestic bird, two natural sworn enemies of the Valley, magically trade places and set off on an adventure of a lifetime to switch back. Their journey soon uncovers a greater threat—one th",
+    "poster": "https://image.tmdb.org/t/p/w500/tHhxWxge06goXU6ZQH1hj7vK8Hd.jpg",
+    "runtime": 102,
+    "trailer": "glgmAwRDP8s",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637904.958937
+  },
+  {
+    "title": "Michael",
+    "year": 2026,
+    "genre": "Drama",
+    "rating": 7.6,
+    "director": "Antoine Fuqua",
+    "cast": "Jaafar Jackson, Colman Domingo, Nia Long, Juliano Krue Valdi, Miles Teller",
+    "plot": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to th",
+    "poster": "https://image.tmdb.org/t/p/w500/3Qud19bBUrrJAzy0Ilm8gRJlJXP.jpg",
+    "runtime": 128,
+    "trailer": "k-YAcjaLuSI",
+    "streaming": {},
+    "streaming_updated": 1779637905.1199636
+  },
+  {
+    "title": "Lee Cronin's The Mummy",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 8.0,
+    "director": "Lee Cronin",
+    "cast": "Jack Reynor, Laia Costa, May Calamawy, Natalie Grace, Shylo Molina",
+    "plot": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare",
+    "poster": "https://image.tmdb.org/t/p/w500/uIb9Tvae5haF0XcQBaPyufmxbb0.jpg",
+    "runtime": 133,
+    "trailer": "6wbMsDmJLCs",
+    "streaming": {},
+    "streaming_updated": 1779637905.2930233
+  },
+  {
+    "title": "The Super Mario Galaxy Movie",
+    "year": 2026,
+    "genre": "Animation",
+    "rating": 7.8,
+    "director": "Aaron Horvath",
+    "cast": "Chris Pratt, Anya Taylor-Joy, Charlie Day, Jack Black, Donald Glover",
+    "plot": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside comp",
+    "poster": "https://image.tmdb.org/t/p/w500/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
+    "runtime": 98,
+    "trailer": "En5QZmL5R1s",
+    "streaming": {},
+    "streaming_updated": 1779637905.4535675
+  },
+  {
+    "title": "Hoppers",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "rating": 8.1,
+    "director": "Daniel Chong",
+    "cast": "Piper Curda, Bobby Moynihan, Jon Hamm, Kathy Najimy, Dave Franco",
+    "plot": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncoverin",
+    "poster": "https://image.tmdb.org/t/p/w500/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "runtime": 104,
+    "trailer": "PypDSyIRRSs",
+    "streaming": {},
+    "streaming_updated": 1779637905.6193275
+  },
+  {
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "rating": 8.6,
+    "director": "Phil Lord",
+    "cast": "Ryan Gosling, Sandra Hüller, James Ortiz, Lionel Boyce, Milana Vayntrub",
+    "plot": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysteriou",
+    "poster": "https://image.tmdb.org/t/p/w500/yihdXomYb5kTeSivtFndMy5iDmf.jpg",
+    "runtime": 157,
+    "trailer": "NKYea63tQmI",
+    "streaming": {},
+    "streaming_updated": 1779637905.7864764
+  },
+  {
+    "title": "Ready or Not: Here I Come",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 7.7,
+    "director": "Matt Bettinelli-Olpin",
+    "cast": "Samara Weaving, Kathryn Newton, Elijah Wood, Sarah Michelle Gellar, Shawn Hatosy",
+    "plot": "Moments after surviving an all-out attack from the Le Domas family, Grace discovers she’s reached the next level of the nightmarish game — and this time with her estranged sister Faith at her side. Grace has one chance t",
+    "poster": "https://image.tmdb.org/t/p/w500/13ZcJzSGEqVgDSqsS9U5EkQwPkV.jpg",
+    "runtime": 108,
+    "trailer": "jczr0KCloXk",
+    "streaming": {},
+    "streaming_updated": 1779637905.9658287
+  },
+  {
+    "title": "GOAT",
+    "year": 2026,
+    "genre": "Animation",
+    "rating": 8.1,
+    "director": "Tyree Dillihay",
+    "cast": "Caleb McLaughlin, Gabrielle Union, Stephen Curry, Aaron Pierre, Nicola Coughlan",
+    "plot": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+    "poster": "https://image.tmdb.org/t/p/w500/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "runtime": 100,
+    "trailer": "kmY-rYS7yng",
+    "streaming": {
+      "US": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637906.1381884
+  },
+  {
+    "title": "Accidental Partners",
+    "year": 2026,
+    "genre": "Family",
+    "rating": 9.1,
+    "director": "Ihtzi Hurtado",
+    "cast": "Angelique Boyer, Bárbara de Regil, Diego Klein, Lucía Uribe, Isabella Camil",
+    "plot": "Two women discover they were both scammed by the same man (who also got them pregnant). They form an alliance to take revenge.",
+    "poster": "https://image.tmdb.org/t/p/w500/sr1Yoj6XLPTWYcbDoBy67xivW4I.jpg",
+    "runtime": 110,
+    "trailer": "tsjsPgnCM2U",
+    "streaming": {
+      "US": [
+        457,
+        1866
+      ]
+    },
+    "streaming_updated": 1779637906.3059368
+  },
+  {
+    "title": "Vengeance",
+    "year": 2026,
+    "genre": "Action",
+    "rating": 7.4,
+    "director": "Rodrigo Valdes",
+    "cast": "Omar Chaparro, Alejandro Speitzer, Paola Nuñez, Natalia Solián, Luis Alberti",
+    "plot": "The brutal murder of the wife of “Toro,” a military hero in the special forces, turns him into a man with a single purpose: revenge. After a stroke of fate makes him a millionaire, Carlos transforms his fortune into an a",
+    "poster": "https://image.tmdb.org/t/p/w500/ygWXPL0RS91JyJPNOfK34eV3bRE.jpg",
+    "runtime": 103,
+    "trailer": "w5ImAc3jMsE",
+    "streaming": {
+      "AU": [
+        119,
+        2100
+      ],
+      "US": [
+        9,
+        2100
+      ],
+      "GB": [
+        9,
+        2100
+      ],
+      "NZ": [
+        119
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779637906.4729564
+  },
+  {
+    "title": "Shelter",
+    "year": 2026,
+    "genre": "Action",
+    "rating": 7.6,
+    "director": "Ric Roman Waugh",
+    "cast": "Jason Statham, Bodhi Rae Breathnach, Naomi Ackie, Daniel Mays, Harriet Walter",
+    "plot": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+    "poster": "https://image.tmdb.org/t/p/w500/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "runtime": 107,
+    "trailer": "auHiLFjaIc0",
+    "streaming": {
+      "US": [
+        1855,
+        43,
+        2383,
+        1794
+      ]
+    },
+    "streaming_updated": 1779637906.6404562
+  },
+  {
+    "title": "Chainsaw Man - The Movie: Reze Arc",
+    "year": 2025,
+    "genre": "Action",
+    "rating": 8.4,
+    "director": "Tatsuya Yoshihara",
+    "cast": "Kikunosuke Toya, Tomori Kusunoki, Reina Ueda, Shogo Sakata, Karin Takahashi",
+    "plot": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+    "poster": "https://image.tmdb.org/t/p/w500/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
+    "runtime": 100,
+    "trailer": "GJ1jrCnm-t8",
+    "streaming": {
+      "AU": [
+        283,
+        1968
+      ],
+      "US": [
+        283,
+        1968
+      ],
+      "GB": [
+        283,
+        1968
+      ],
+      "NZ": [
+        283,
+        1968
+      ],
+      "CA": [
+        1968,
+        283
+      ]
+    },
+    "streaming_updated": 1779637906.8708408
+  },
+  {
+    "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+    "year": 2025,
+    "genre": "Action",
+    "rating": 7.7,
+    "director": "Haruo Sotozaki",
+    "cast": "Natsuki Hanae, Takahiro Sakurai, Akira Ishida, Hiro Shimono, Yoshimasa Hosoya",
+    "plot": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+    "poster": "https://image.tmdb.org/t/p/w500/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    "runtime": 156,
+    "trailer": "EpAlHmuA2YM",
+    "streaming": {},
+    "streaming_updated": 1779637907.0414405
+  },
+  {
+    "title": "Ikiru",
+    "year": 2024,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Akira Kurosawa",
+    "cast": "Takashi Shimura, Haruo Tanaka, Nobuo Kaneko, Bokuzen Hidari, Miki Odagiri",
+    "plot": "Kanji Watanabe is a middle-aged man who has worked in the same monotonous bureaucratic position for decades. Learning he has cancer, he starts to look for the meaning of his life.",
+    "poster": "https://image.tmdb.org/t/p/w500/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg",
+    "runtime": 143,
+    "trailer": "geKhyNerWM8",
+    "streaming": {
+      "US": [
+        1825,
+        258,
+        1899
+      ],
+      "GB": [
+        224,
+        287,
+        2041
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779637907.2134128
+  },
+  {
+    "title": "High and Low",
+    "year": 2024,
+    "genre": "Thriller",
+    "rating": 8.4,
+    "director": "Akira Kurosawa",
+    "cast": "Toshirō Mifune, Tatsuya Nakadai, Kyōko Kagawa, Tatsuya Mihashi, Isao Kimura",
+    "plot": "A Yokohama shoe executive faces a wrenching choice when kidnappers mistakenly seize his chauffeur’s son but demand the ransom anyway.",
+    "poster": "https://image.tmdb.org/t/p/w500/tgNjemQPG96uIezpiUiXFcer5ga.jpg",
+    "runtime": 142,
+    "trailer": "ELsgPvgDBoY",
+    "streaming": {
+      "US": [
+        1825,
+        258,
+        1899
+      ],
+      "GB": [
+        224
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779637907.3835917
+  },
+  {
+    "title": "Radical",
+    "year": 2024,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Christopher Zalla",
+    "cast": "Eugenio Derbez, Daniel Haddad, Jennifer Trejo, Mia Fernanda Solis, Danilo Guardiola Escobar",
+    "plot": "In a Mexican border town plagued by neglect, corruption, and violence, a frustrated teacher tries an unorthodox new method to break through his students’ apathy and unlock their curiosity, their potential... and perhaps ",
+    "poster": "https://image.tmdb.org/t/p/w500/lOAJYpX608aT0ApIv63ZTnol27Y.jpg",
+    "runtime": 125,
+    "trailer": "BXcGgvAKC1Q",
+    "streaming": {
+      "US": [
+        9,
+        2100
+      ]
+    },
+    "streaming_updated": 1779637907.552838
+  },
+  {
+    "title": "¿Quieres ser mi hijo?",
+    "year": 2023,
+    "genre": "Romance",
+    "rating": 8.5,
+    "director": "Ihtzi Hurtado",
+    "cast": "Ludwika Paleta, Juanpa Zurita, Hernán Mendoza, Harold Azuara, Agustín Arana",
+    "plot": "Lu, a conformist woman in her forties, learns that her 15-year partner has been having extramarital affairs. Starting from scratch, she gets involved in an unexpected relationship with a young womanizer.",
+    "poster": "https://image.tmdb.org/t/p/w500/9GuvODahvuFqdhuZ16aBLR4UJoP.jpg",
+    "runtime": 100,
+    "trailer": "",
+    "streaming": {
+      "US": [
+        1866
+      ]
+    },
+    "streaming_updated": 1779637907.7310038
+  },
+  {
+    "title": "Impossible Things",
+    "year": 2021,
+    "genre": "Drama",
+    "rating": 8.4,
+    "director": "Ernesto Contreras",
+    "cast": "Nora Velázquez, Benny Emmanuel, Luisa Huertas, Salvador Garcini, Andrés Delgado",
+    "plot": "After the death of her abusive husband, Matilde finds her new best friend in Miguel, her young, insecure, and disoriented neighbor.",
+    "poster": "https://image.tmdb.org/t/p/w500/t2Ew8NZ8Ci2kqmoecZUNQUFDJnQ.jpg",
+    "runtime": 88,
+    "trailer": "",
+    "streaming": {},
+    "streaming_updated": 1779637907.9004366
+  },
+  {
+    "title": "Mortal Kombat",
+    "year": 2021,
+    "genre": "Action",
+    "rating": 7.0,
+    "director": "Simon McQuoid",
+    "cast": "Lewis Tan, Jessica McNamee, Mehcad Brooks, Josh Lawson, Ludi Lin",
+    "plot": "Washed-up MMA fighter Cole Young, unaware of his heritage, and hunted by Emperor Shang Tsung's best warrior, Sub-Zero, seeks out and trains with Earth's greatest champions as he prepares to stand against the enemies of O",
+    "poster": "https://image.tmdb.org/t/p/w500/ybrX94xQm8lXYpZAPRmwD9iIbWP.jpg",
+    "runtime": 110,
+    "trailer": "QJHY4ggYCk4",
+    "streaming": {
+      "AU": [
+        8,
+        119,
+        21,
+        1796,
+        1899,
+        2100,
+        1825
+      ],
+      "US": [
+        1825,
+        2528,
+        1899
+      ],
+      "GB": [
+        9,
+        1825,
+        2100
+      ],
+      "NZ": [
+        8,
+        119
+      ]
+    },
+    "streaming_updated": 1779637908.0790336
+  },
+  {
+    "title": "Lucy Shimmers and the Prince of Peace",
+    "year": 2020,
+    "genre": "Drama",
+    "rating": 8.4,
+    "director": "Rob Diamond",
+    "cast": "Scarlett Diamond, Vincent Vargas, Adam Hightower, Shawn Stevens, Florencia Contreras Stevens",
+    "plot": "Second chances start when a hardened criminal crosses paths with a precocious little girl who is helped by an angel to change hearts during the holiday season.",
+    "poster": "https://image.tmdb.org/t/p/w500/yfnJ5qIYx7q33fY4jqv9Pu95RSg.jpg",
+    "runtime": 87,
+    "trailer": "bu2yPlLTfZ8",
+    "streaming": {
+      "US": [
+        9,
+        2045,
+        2100,
+        2414,
+        2066
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779637908.2492673
+  },
+  {
+    "title": "A Silent Voice: The Movie",
+    "year": 2017,
+    "genre": "Drama",
+    "rating": 8.4,
+    "director": "Naoko Yamada",
+    "cast": "Miyu Irino, Saori Hayami, Aoi Yuuki, Kensho Ono, Yuki Kaneko",
+    "plot": "Shouya Ishida starts bullying the new girl in class, Shouko Nishimiya, because she is deaf. But as the teasing continues, the rest of the class starts to turn on Shouya for his lack of compassion. When they leave element",
+    "poster": "https://image.tmdb.org/t/p/w500/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg",
+    "runtime": 129,
+    "trailer": "TQK9By9qQiw",
+    "streaming": {
+      "AU": [
+        283,
+        1968
+      ],
+      "US": [
+        283,
+        1968
+      ],
+      "NZ": [
+        283,
+        1968
+      ],
+      "CA": [
+        1968,
+        283
+      ]
+    },
+    "streaming_updated": 1779637908.4167967
+  },
+  {
+    "title": "Your Name.",
+    "year": 2016,
+    "genre": "Drama",
+    "rating": 8.5,
+    "director": "Makoto Shinkai",
+    "cast": "Ryunosuke Kamiki, Mone Kamishiraishi, Ryo Narita, Aoi Yuuki, Nobunaga Shimazaki",
+    "plot": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen rando",
+    "poster": "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
+    "runtime": 106,
+    "trailer": "o4-URMnBOPU",
+    "streaming": {
+      "AU": [
+        1968
+      ],
+      "US": [
+        1825,
+        1899
+      ],
+      "NZ": [
+        1968
+      ]
+    },
+    "streaming_updated": 1779637908.5932574
+  },
+  {
+    "title": "Hope",
+    "year": 2013,
+    "genre": "Drama",
+    "rating": 8.4,
+    "director": "Lee Joon-ik",
+    "cast": "Sul Kyung-gu, Uhm Ji-won, Lee Re, Kim Sang-ho, Kim Hae-sook",
+    "plot": "After 8-year-old So-won narrowly survives a brutal sexual assault, her family labors to help her heal while coping with their own rage and grief.",
+    "poster": "https://image.tmdb.org/t/p/w500/x9yjkm9gIz5qI5fJMUTfBnWiB2o.jpg",
+    "runtime": 122,
+    "trailer": "",
+    "streaming": {},
+    "streaming_updated": 1779637908.7601445
+  },
+  {
+    "title": "Michael Jackson: The Life of an Icon",
+    "year": 2011,
+    "genre": "Documentary",
+    "rating": 8.1,
+    "director": "Andrew Eastel",
+    "cast": "Michael Jackson, David Gest, Tito Jackson, Rebbie Jackson, Katherine Jackson",
+    "plot": "See Michael Jackson, one of the most recognizable and popular entertainers of all time, like never before in the feature-length tribute Michael Jackson: The Life of an Icon. Known to millions of fans worldwide for his re",
+    "poster": "https://image.tmdb.org/t/p/w500/tOCYV9JCXXFtb7YehKXJBMKI4aD.jpg",
+    "runtime": 149,
+    "trailer": "",
+    "streaming": {},
+    "streaming_updated": 1779637908.940731
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "year": 2005,
+    "genre": "Animation",
+    "rating": 8.4,
+    "director": "Hayao Miyazaki",
+    "cast": "Chieko Baisho, Takuya Kimura, Akihiro Miwa, Tatsuya Gashûin, Ryunosuke Kamiki",
+    "plot": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
+    "poster": "https://image.tmdb.org/t/p/w500/13kOl2v0nD2OLbVSHnHk8GUFEhO.jpg",
+    "runtime": 119,
+    "trailer": "ARCQf2CEr8k",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        1825,
+        1899
+      ],
+      "GB": [
+        8,
+        175,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637909.1127205
+  },
+  {
+    "title": "Spirited Away",
+    "year": 2002,
+    "genre": "Animation",
+    "rating": 8.5,
+    "director": "Hayao Miyazaki",
+    "cast": "Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takashi Naito, Yasuko Sawaguchi",
+    "plot": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
+    "poster": "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "runtime": 125,
+    "trailer": "GAp2_0JJskk",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        1825,
+        1899
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637909.280604
+  },
+  {
+    "title": "Princess Mononoke",
+    "year": 2001,
+    "genre": "Animation",
+    "rating": 8.3,
+    "director": "Hayao Miyazaki",
+    "cast": "Yoji Matsuda, Yuriko Ishida, Yuko Tanaka, Kaoru Kobayashi, Masahiko Nishimura",
+    "plot": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, a",
+    "poster": "https://image.tmdb.org/t/p/w500/cMYCDADoLKLbB83g4WnJegaZimC.jpg",
+    "runtime": 134,
+    "trailer": "I1dHzoRl0sQ",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        1825,
+        1899
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637909.4453676
+  },
+  {
+    "title": "The Green Mile",
+    "year": 2000,
+    "genre": "Thriller",
+    "rating": 8.5,
+    "director": "Frank Darabont",
+    "cast": "Tom Hanks, David Morse, Bonnie Hunt, Michael Clarke Duncan, James Cromwell",
+    "plot": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's mir",
+    "poster": "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg",
+    "runtime": 189,
+    "trailer": "Bg7epsq0OIQ",
+    "streaming": {
+      "AU": [
+        119,
+        2100
+      ],
+      "US": [
+        2528
+      ],
+      "GB": [
+        8,
+        1796,
+        2311
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779637909.6145175
+  },
+  {
+    "title": "American History X",
+    "year": 1999,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Tony Kaye",
+    "cast": "Edward Norton, Edward Furlong, Beverly D'Angelo, Jennifer Lien, Ethan Suplee",
+    "plot": "Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader o",
+    "poster": "https://image.tmdb.org/t/p/w500/x2drgoXYZ8484lqyDj7L1CEVR4T.jpg",
+    "runtime": 119,
+    "trailer": "el6JxnW2Tyg",
+    "streaming": {
+      "GB": [
+        1825
+      ]
+    },
+    "streaming_updated": 1779637909.784959
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "year": 1995,
+    "genre": "Thriller",
+    "rating": 8.7,
+    "director": "Frank Darabont",
+    "cast": "Tim Robbins, Morgan Freeman, Bob Gunton, William Sadler, Clancy Brown",
+    "plot": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During",
+    "poster": "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg",
+    "runtime": 142,
+    "trailer": "PLl99DlL6b4",
+    "streaming": {
+      "AU": [
+        1899,
+        1825
+      ],
+      "US": [
+        635,
+        2528
+      ],
+      "GB": [
+        1825,
+        29,
+        591
+      ],
+      "CA": [
+        230,
+        469,
+        1794,
+        2604
+      ]
+    },
+    "streaming_updated": 1779637909.9538882
+  },
+  {
+    "title": "Schindler's List",
+    "year": 1994,
+    "genre": "Action",
+    "rating": 8.6,
+    "director": "Steven Spielberg",
+    "cast": "Liam Neeson, Ben Kingsley, Ralph Fiennes, Caroline Goodall, Jonathan Sagall",
+    "plot": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
+    "poster": "https://image.tmdb.org/t/p/w500/sF1U4EUQS8YHUYjNl3pMGNIQyr0.jpg",
+    "runtime": 195,
+    "trailer": "v0RB-3sWbBA",
+    "streaming": {
+      "AU": [
+        531,
+        582,
+        134,
+        2303,
+        2304,
+        385
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        9,
+        2100
+      ],
+      "CA": [
+        230,
+        2604
+      ]
+    },
+    "streaming_updated": 1779637910.1804473
+  },
+  {
+    "title": "Grave of the Fireflies",
+    "year": 1991,
+    "genre": "Action",
+    "rating": 8.4,
+    "director": "Isao Takahata",
+    "cast": "Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara, Akemi Yamaguchi, Masayo Sakai",
+    "plot": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned b",
+    "poster": "https://image.tmdb.org/t/p/w500/k9tv1rXZbOhH7eiCk378x61kNQ1.jpg",
+    "runtime": 89,
+    "trailer": "QZbcx0WNrMU",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779637910.3957562
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "year": 1976,
+    "genre": "Drama",
+    "rating": 8.4,
+    "director": "Miloš Forman",
+    "cast": "Jack Nicholson, Brad Dourif, Louise Fletcher, Danny DeVito, William Redfield",
+    "plot": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
+    "poster": "https://image.tmdb.org/t/p/w500/kjWsMh72V6d8KRLV4EOoSJLT1H7.jpg",
+    "runtime": 133,
+    "trailer": "F4da9uRIg8c",
+    "streaming": {},
+    "streaming_updated": 1779637910.5579324
+  },
+  {
+    "title": "The Godfather Part II",
+    "year": 1975,
+    "genre": "Thriller",
+    "rating": 8.6,
+    "director": "Francis Ford Coppola",
+    "cast": "Al Pacino, Robert Duvall, Diane Keaton, Robert De Niro, John Cazale",
+    "plot": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cub",
+    "poster": "https://image.tmdb.org/t/p/w500/hek3koDUyRQk7FIhPXsa6mT2Zc3.jpg",
+    "runtime": 202,
+    "trailer": "7pfqivkYUlE",
+    "streaming": {
+      "AU": [
+        531,
+        134,
+        21,
+        2303,
+        2304,
+        385
+      ],
+      "US": [
+        2303,
+        582,
+        2528
+      ],
+      "GB": [
+        531,
+        582,
+        2303,
+        2304
+      ],
+      "CA": [
+        230,
+        531,
+        582,
+        2303,
+        2304,
+        2604
+      ]
+    },
+    "streaming_updated": 1779637910.7380326
+  },
+  {
+    "title": "The Godfather",
+    "year": 1972,
+    "genre": "Thriller",
+    "rating": 8.7,
+    "director": "Francis Ford Coppola",
+    "cast": "Marlon Brando, Al Pacino, James Caan, Robert Duvall, Richard S. Castellano",
+    "plot": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael",
+    "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+    "runtime": 175,
+    "trailer": "Ew9ngL1GZvs",
+    "streaming": {
+      "AU": [
+        531,
+        134,
+        21,
+        2303,
+        2304,
+        385
+      ],
+      "US": [
+        2303,
+        582,
+        2528
+      ],
+      "GB": [
+        531,
+        582,
+        2303,
+        2304
+      ],
+      "CA": [
+        230,
+        531,
+        2303,
+        2304,
+        2604
+      ]
+    },
+    "streaming_updated": 1779637910.9156263
   }
 ]
