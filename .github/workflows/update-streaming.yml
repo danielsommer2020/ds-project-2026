@@ -39,7 +39,7 @@ jobs:
           echo "=== JSON files ==="
           ls -la *.json 2>/dev/null || echo "No .json files"
 
-      - name: Fetch new titles (40 movies + 40 TV shows)
+      - name: Fetch new titles (100 movies + 40 TV shows)
         run: python3 fetch_new_titles.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
