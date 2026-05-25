@@ -154161,5 +154161,91 @@
       ]
     },
     "streaming_updated": 1779711809.1131098
+  },
+  {
+    "title": "You, Me & Tuscany",
+    "year": 2026,
+    "genre": "Romance",
+    "rating": 7.3,
+    "director": "Kat Coiro",
+    "cast": "Halle Bailey, Regé-Jean Page, Marco Calvani, Lorenzo de Moor, Aziza Scott",
+    "plot": "When a woman crashes at an empty Italian villa, posing as the owner's fiancée, she discovers an unexpected romance that could transform her life.",
+    "poster": "https://image.tmdb.org/t/p/w500/mJS0IF7Af3WpPRhSTDT6rGpiLzw.jpg",
+    "runtime": 105,
+    "trailer": "uYTMroh8pjI",
+    "streaming": {},
+    "streaming_updated": 1779712223.2677402
+  },
+  {
+    "title": "Mercy",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "rating": 7.0,
+    "director": "Timur Bekmambetov",
+    "cast": "Chris Pratt, Rebecca Ferguson, Kali Reis, Kylie Rogers, Chris Sullivan",
+    "plot": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
+    "poster": "https://image.tmdb.org/t/p/w500/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+    "runtime": 99,
+    "trailer": "JUADqWkJiiE",
+    "streaming": {
+      "AU": [
+        119,
+        2100
+      ],
+      "US": [
+        9,
+        257,
+        583,
+        34,
+        2383,
+        2100
+      ],
+      "GB": [
+        9,
+        2100,
+        2141
+      ],
+      "NZ": [
+        119
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779712223.4714637
+  },
+  {
+    "title": "No Other Choice",
+    "year": 2025,
+    "genre": "Thriller",
+    "rating": 7.5,
+    "director": "Park Chan-wook",
+    "cast": "Lee Byung-hun, Son Ye-jin, Park Hee-soon, Lee Sung-min, Yeom Hye-ran",
+    "plot": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
+    "poster": "https://image.tmdb.org/t/p/w500/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
+    "runtime": 140,
+    "trailer": "SK_DEabMNVg",
+    "streaming": {
+      "AU": [
+        11,
+        201
+      ],
+      "US": [
+        15
+      ],
+      "GB": [
+        11,
+        201
+      ],
+      "NZ": [
+        11,
+        201
+      ],
+      "CA": [
+        11
+      ]
+    },
+    "streaming_updated": 1779712223.6509902
   }
 ]
