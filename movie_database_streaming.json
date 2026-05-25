@@ -153169,5 +153169,141 @@
       ]
     },
     "streaming_updated": 1779637910.9156263
+  },
+  {
+    "title": "Harakiri",
+    "year": 1962,
+    "genre": "Action",
+    "rating": 8.4,
+    "director": "Masaki Kobayashi",
+    "cast": "Tatsuya Nakadai, Akira Ishihama, Shima Iwashita, Tetsuro Tamba, Masao Mishima",
+    "plot": "Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce i",
+    "poster": "https://image.tmdb.org/t/p/w500/3nPwMd3KviJWaHzG9fZCqlwWMas.jpg",
+    "runtime": 135,
+    "trailer": "gfABwM-Ppng",
+    "streaming": {
+      "US": [
+        258
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779709928.0394437
+  },
+  {
+    "title": "Psycho",
+    "year": 1960,
+    "genre": "Thriller",
+    "rating": 8.4,
+    "director": "Alfred Hitchcock",
+    "cast": "Anthony Perkins, Janet Leigh, Vera Miles, John Gavin, Martin Balsam",
+    "plot": "When larcenous real estate clerk Marion Crane goes on the lam with a wad of cash and hopes of starting a new life, she ends up at the notorious Bates Motel, where manager Norman Bates cares for his housebound mother.",
+    "poster": "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg",
+    "runtime": 109,
+    "trailer": "D90QhegiVvo",
+    "streaming": {
+      "AU": [
+        134,
+        385
+      ],
+      "GB": [
+        29,
+        591
+      ],
+      "CA": [
+        230,
+        182,
+        705,
+        2604
+      ]
+    },
+    "streaming_updated": 1779709928.1210663
+  },
+  {
+    "title": "12 Angry Men",
+    "year": 1957,
+    "genre": "Drama",
+    "rating": 8.6,
+    "director": "Sidney Lumet",
+    "cast": "Martin Balsam, John Fiedler, Lee J. Cobb, E.G. Marshall, Jack Klugman",
+    "plot": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes",
+    "poster": "https://image.tmdb.org/t/p/w500/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg",
+    "runtime": 97,
+    "trailer": "TEN-2uTi2c0",
+    "streaming": {
+      "AU": [
+        134,
+        588
+      ],
+      "GB": [
+        2141
+      ],
+      "NZ": [
+        2141
+      ],
+      "CA": [
+        588
+      ]
+    },
+    "streaming_updated": 1779709928.1954923
+  },
+  {
+    "title": "Seven Samurai",
+    "year": 1956,
+    "genre": "Action",
+    "rating": 8.5,
+    "director": "Akira Kurosawa",
+    "cast": "Toshirō Mifune, Takashi Shimura, Yoshio Inaba, Seiji Miyaguchi, Minoru Chiaki",
+    "plot": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the ",
+    "poster": "https://image.tmdb.org/t/p/w500/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+    "runtime": 207,
+    "trailer": "RsRN65PlaIM",
+    "streaming": {
+      "US": [
+        1825,
+        258,
+        1899
+      ],
+      "GB": [
+        224,
+        287,
+        2041
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779709928.2730706
+  },
+  {
+    "title": "Rear Window",
+    "year": 1955,
+    "genre": "Thriller",
+    "rating": 8.3,
+    "director": "Alfred Hitchcock",
+    "cast": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter, Raymond Burr",
+    "plot": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+    "poster": "https://image.tmdb.org/t/p/w500/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+    "runtime": 112,
+    "trailer": "iZOTTxwzyMU",
+    "streaming": {
+      "AU": [
+        531,
+        582,
+        134,
+        2303,
+        2304,
+        385
+      ],
+      "US": [
+        2528
+      ],
+      "CA": [
+        182,
+        705
+      ]
+    },
+    "streaming_updated": 1779709928.3553588
   }
 ]
