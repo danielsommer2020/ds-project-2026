@@ -153305,5 +153305,861 @@
       ]
     },
     "streaming_updated": 1779709928.3553588
+  },
+  {
+    "title": "Reminders of Him",
+    "year": 2026,
+    "genre": "Drama",
+    "rating": 7.6,
+    "director": "Vanessa Caswill",
+    "cast": "Maika Monroe, Tyriq Withers, Rudy Pankow, Bradley Whitford, Lauren Graham",
+    "plot": "When Diem's custodial grandparents adamantly refuse Kenna's attempts to see her daughter, Kenna discovers unexpected compassion, and then something truer and deeper, with former NFL player and local bar owner Ledger. As ",
+    "poster": "https://image.tmdb.org/t/p/w500/7L6rceYgzQ0NeHD7PRDNrRoQ291.jpg",
+    "runtime": 114,
+    "trailer": "i36Zw32GfRQ",
+    "streaming": {},
+    "streaming_updated": 1779711805.3093288
+  },
+  {
+    "title": "Good Boy",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 7.3,
+    "director": "Jan Komasa",
+    "cast": "Stephen Graham, Andrea Riseborough, Anson Boon, Kit Rakusen, Monika Frajczyk",
+    "plot": "Tommy, a volatile 19-year-old, revels in drugs, parties and violence. After getting separated from his friends on a drunken bender, he is abducted by a shadowy figure. He wakes to find himself imprisoned in the basement ",
+    "poster": "https://image.tmdb.org/t/p/w500/nXWewAZxRAr9jYNe2uypLlyPehl.jpg",
+    "runtime": 110,
+    "trailer": "qWkPjI-Brkc",
+    "streaming": {},
+    "streaming_updated": 1779711805.7269955
+  },
+  {
+    "title": "War Machine",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "rating": 7.3,
+    "director": "Patrick Hughes",
+    "cast": "Alan Ritchson, Dennis Quaid, Stephan James, Jai Courtney, Esai Morales",
+    "plot": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
+    "poster": "https://image.tmdb.org/t/p/w500/ril8yx5SOmj0KjNlftsdfIp00fr.jpg",
+    "runtime": 110,
+    "trailer": "AFuE1LRxm80",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779711805.805929
+  },
+  {
+    "title": "Send Help",
+    "year": 2026,
+    "genre": "Thriller",
+    "rating": 7.0,
+    "director": "Sam Raimi",
+    "cast": "Rachel McAdams, Dylan O'Brien, Edyll Ismail, Dennis Haysbert, Xavier Samuel",
+    "plot": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to",
+    "poster": "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
+    "runtime": 113,
+    "trailer": "cOmnmFz_Uzs",
+    "streaming": {
+      "AU": [
+        337
+      ],
+      "US": [
+        15
+      ],
+      "GB": [
+        337
+      ],
+      "NZ": [
+        337
+      ],
+      "CA": [
+        337
+      ]
+    },
+    "streaming_updated": 1779711806.5400593
+  },
+  {
+    "title": "28 Years Later: The Bone Temple",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "rating": 7.1,
+    "director": "Nia DaCosta",
+    "cast": "Ralph Fiennes, Jack O'Connell, Alfie Williams, Erin Kellyman, Chi Lewis-Parry",
+    "plot": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+    "poster": "https://image.tmdb.org/t/p/w500/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    "runtime": 109,
+    "trailer": "rl_DJZCyEH4",
+    "streaming": {
+      "US": [
+        8,
+        1796
+      ],
+      "CA": [
+        230,
+        2604
+      ]
+    },
+    "streaming_updated": 1779711806.6100802
+  },
+  {
+    "title": "Dollhouse",
+    "year": 2025,
+    "genre": "Thriller",
+    "rating": 7.5,
+    "director": "Shinobu Yaguchi",
+    "cast": "Masami Nagasawa, Koji Seto, Tetsushi Tanaka, Aoi Ikemura, Naomi Nishida",
+    "plot": "After losing their child, a mother finds solace in a life-sized ancient doll she finds on the market.  When a new daughter enters the family's life, strange things begin to happen and no matter how hard the family tries ",
+    "poster": "https://image.tmdb.org/t/p/w500/vUs4OPpvu4Is7wIGaXkseNJHhEA.jpg",
+    "runtime": 110,
+    "trailer": "BETzErclqok",
+    "streaming": {},
+    "streaming_updated": 1779711806.6885502
+  },
+  {
+    "title": "Counterattack",
+    "year": 2025,
+    "genre": "Action",
+    "rating": 8.2,
+    "director": "Chava Cartas",
+    "cast": "Luis Alberti, Noé Hernández, Leonardo Alonso, Luis Curiel, Guillermo Nava",
+    "plot": "When a hostage rescue mission creates a new enemy, Capt. Guerrero and his elite soldiers must face an ambush by a criminal group.",
+    "poster": "https://image.tmdb.org/t/p/w500/38I76hGcFY6xB47pjm7pZwkfuAF.jpg",
+    "runtime": 85,
+    "trailer": "pEO34SeTsY0",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779711806.7706342
+  },
+  {
+    "title": "My Fault",
+    "year": 2023,
+    "genre": "Thriller",
+    "rating": 7.7,
+    "director": "Domingo González",
+    "cast": "Nicole Wallace, Gabriel Guevara, Marta Hazas, Iván Sánchez, Eva Ruiz",
+    "plot": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surr",
+    "poster": "https://image.tmdb.org/t/p/w500/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+    "runtime": 116,
+    "trailer": "xY-qRGC6Yu0",
+    "streaming": {
+      "AU": [
+        119,
+        2100
+      ],
+      "US": [
+        9,
+        2100
+      ],
+      "GB": [
+        9,
+        2100
+      ],
+      "NZ": [
+        119
+      ],
+      "CA": [
+        119,
+        2100
+      ]
+    },
+    "streaming_updated": 1779711806.8525853
+  },
+  {
+    "title": "The Quintessential Quintuplets Movie",
+    "year": 2022,
+    "genre": "Animation",
+    "rating": 8.3,
+    "director": "Masato Jimbo",
+    "cast": "Yoshitsugu Matsuoka, Kana Hanazawa, Ayana Taketatsu, Miku Ito, Ayane Sakura",
+    "plot": "When five lovely young girls who hate studying hire part-time tutor Futaro, he guides not only their education but also their hearts. Time spent has brought them all closer, with feelings growing within the girls and Fut",
+    "poster": "https://image.tmdb.org/t/p/w500/sg7klpt1xwK1IJirBI9EHaqQwJ5.jpg",
+    "runtime": 136,
+    "trailer": "AYxCeeA3LaI",
+    "streaming": {
+      "AU": [
+        8,
+        1796,
+        283,
+        1968
+      ],
+      "US": [
+        8,
+        283,
+        1968,
+        1796
+      ],
+      "GB": [
+        8,
+        283,
+        1968,
+        1796
+      ],
+      "NZ": [
+        8,
+        283,
+        1968
+      ],
+      "CA": [
+        8,
+        230,
+        1968,
+        283,
+        1796,
+        2604
+      ]
+    },
+    "streaming_updated": 1779711806.9337285
+  },
+  {
+    "title": "Josee, the Tiger and the Fish",
+    "year": 2021,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Kotaro Tamura",
+    "cast": "Taishi Nakagawa, Kaya Kiyohara, Yume Miyamoto, Kazuyuki Okitsu, Lynn",
+    "plot": "With dreams of diving abroad, Tsuneo gets a job assisting Josee, an artist whose imagination takes her far beyond her wheelchair. But when the tide turns against them, they push each other to places they never thought po",
+    "poster": "https://image.tmdb.org/t/p/w500/z1D8xi9x4uEhyFruo7uEHXUMD4K.jpg",
+    "runtime": 98,
+    "trailer": "w6IsHL91aXo",
+    "streaming": {
+      "AU": [
+        283,
+        1968
+      ],
+      "US": [
+        283,
+        1968
+      ],
+      "NZ": [
+        283,
+        1968
+      ],
+      "CA": [
+        230,
+        1968,
+        283
+      ]
+    },
+    "streaming_updated": 1779711807.0145388
+  },
+  {
+    "title": "Violet Evergarden: The Movie",
+    "year": 2020,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Taichi Ishidate",
+    "cast": "Yui Ishikawa, Daisuke Namikawa, Takehito Koyasu, Hidenobu Kiuchi, Haruka Tomatsu",
+    "plot": "As the world moves on from the war and technological advances bring changes to her life, Violet still hopes to see her lost commanding officer again.",
+    "poster": "https://image.tmdb.org/t/p/w500/bajajkoErDst0JxdFyBkABiF9rW.jpg",
+    "runtime": 140,
+    "trailer": "BUfSen2rYQs",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779711807.0913382
+  },
+  {
+    "title": "Given",
+    "year": 2020,
+    "genre": "Drama",
+    "rating": 8.2,
+    "director": "Hikaru Yamaguchi",
+    "cast": "Takuya Eguchi, Masatomo Nakazawa, Shogo Yano, Yuma Uchida, Shintaro Asanuma",
+    "plot": "Haruki secretly had feelings for Akihiko for years, but Akihiko was still in a relationship with his roommate, the violinist Ugetsu Murata. Haruki, Akihiko, and Ugetsu's love clashes and starts to move forward.",
+    "poster": "https://image.tmdb.org/t/p/w500/pegCub2zdYD5As43AOmGsIctuKc.jpg",
+    "runtime": 60,
+    "trailer": "XGKGjMGZwtk",
+    "streaming": {
+      "AU": [
+        283
+      ],
+      "US": [
+        283
+      ],
+      "GB": [
+        283
+      ],
+      "NZ": [
+        283
+      ],
+      "CA": [
+        283
+      ]
+    },
+    "streaming_updated": 1779711807.1830952
+  },
+  {
+    "title": "Out of the Clear Blue Sky",
+    "year": 2019,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Pepe Bojórquez",
+    "cast": "Omar Chaparro, Ana Claudia Talancón, Stephanie Cayo, Lupita Sandoval, Yare Santana",
+    "plot": "Returning to Earth as an imitator, the legendary Mexican artist Pedro Infante must prove that he is no longer a womanizer to enter paradise.",
+    "poster": "https://image.tmdb.org/t/p/w500/o9cSEHrXzPOO4OIoT9yrdxc216w.jpg",
+    "runtime": 112,
+    "trailer": "",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779711807.2623873
+  },
+  {
+    "title": "Dedicated to my ex",
+    "year": 2019,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Jorge Ulloa",
+    "cast": "Raúl Santana, Nataly Valencia, Carlos Alcántara, Biassini Segura, Mariana Treviño",
+    "plot": "The film tells the story of Ariel, a 21-year-old who decides to form a rock band to compete for a prize of ten thousand dollars in a musical band contest, this as a last option when trying to get money to save their rela",
+    "poster": "https://image.tmdb.org/t/p/w500/xc4bTXVwYNXi10jG9dwcaYt5IpU.jpg",
+    "runtime": 94,
+    "trailer": "hU2DASqjvi4",
+    "streaming": {},
+    "streaming_updated": 1779711807.343198
+  },
+  {
+    "title": "Rascal Does Not Dream of a Dreaming Girl",
+    "year": 2019,
+    "genre": "Drama",
+    "rating": 8.2,
+    "director": "Soichi Masui",
+    "cast": "Kaito Ishikawa, Asami Seto, Inori Minase, Nao Toyama, Atsumi Tanezaki",
+    "plot": "In Fujisawa, Sakuta Azusagawa is in his second year of high school. Blissful days with his girlfriend and upperclassman, Mai Sakurajima, are interrupted by the appearance of his first crush, Shoko Makinohara.",
+    "poster": "https://image.tmdb.org/t/p/w500/AtFnN4OztDJy8IFwYd5JfU0jlEM.jpg",
+    "runtime": 90,
+    "trailer": "nEGdeSJd9ls",
+    "streaming": {
+      "AU": [
+        1968
+      ],
+      "US": [
+        1968
+      ],
+      "GB": [
+        1968
+      ],
+      "NZ": [
+        1968
+      ],
+      "CA": [
+        1968
+      ]
+    },
+    "streaming_updated": 1779711807.4447422
+  },
+  {
+    "title": "I Want to Eat Your Pancreas",
+    "year": 2018,
+    "genre": "Drama",
+    "rating": 8.2,
+    "director": "Shinichiro Ushijima",
+    "cast": "Mahiro Takasugi, Lynn, Yukiyo Fujii, Yuma Uchida, Jun Fukushima",
+    "plot": "After his classmate and crush is diagnosed with a pancreatic disease, an average high schooler sets out to make the most of her final days.",
+    "poster": "https://image.tmdb.org/t/p/w500/qpV8kvRfAntV7D4aOOsLIz7OdPc.jpg",
+    "runtime": 108,
+    "trailer": "MONVPR1dnRQ",
+    "streaming": {},
+    "streaming_updated": 1779711807.7856421
+  },
+  {
+    "title": "Dou kyu sei – Classmates",
+    "year": 2016,
+    "genre": "Animation",
+    "rating": 8.3,
+    "director": "Shoko Nakamura",
+    "cast": "Kenji Nojima, Hiroshi Kamiya, Hideo Ishikawa, Yurino",
+    "plot": "Rihito Sajo, an honor student with a perfect score on the entrance exam and Hikaru Kusakabe, in a band and popular among girls, would have never crossed paths. Until one day they started talking at the practice for their",
+    "poster": "https://image.tmdb.org/t/p/w500/cIfRCA5wEvj9tApca4UDUagQEiM.jpg",
+    "runtime": 61,
+    "trailer": "wFQTncSyukA",
+    "streaming": {},
+    "streaming_updated": 1779711807.8668098
+  },
+  {
+    "title": "The Intouchables",
+    "year": 2012,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Éric Toledano",
+    "cast": "François Cluzet, Omar Sy, Anne Le Ny, Audrey Fleurot, Joséphine de Meaux",
+    "plot": "A true story of two men who should never have met – a quadriplegic aristocrat who was injured in a paragliding accident and a young man from the projects.",
+    "poster": "https://image.tmdb.org/t/p/w500/1QU7HKgsQbGpzsJbJK4pAVQV9F5.jpg",
+    "runtime": 113,
+    "trailer": "dvdJ--DV0Uo",
+    "streaming": {
+      "AU": [
+        21
+      ],
+      "NZ": [
+        2358
+      ],
+      "CA": [
+        119,
+        2100,
+        2604
+      ]
+    },
+    "streaming_updated": 1779711807.9469671
+  },
+  {
+    "title": "Hotarubi no Mori e",
+    "year": 2011,
+    "genre": "Animation",
+    "rating": 8.3,
+    "director": "Takahiro Omori",
+    "cast": "Izumi Sawada, Hayato Taya, Ayane Sakura, Koki Uchiyama, Shinpachi Tsuji",
+    "plot": "One hot summer day a little girl gets lost in an enchanted forest of the mountain god where spirits reside. A young boy appears before her, but she cannot touch him for fear of making him disappear. And so a wondrous adv",
+    "poster": "https://image.tmdb.org/t/p/w500/mDqzHV8UXWWNpZkoAbKmKX1ZxEE.jpg",
+    "runtime": 45,
+    "trailer": "qXLSRH31Yao",
+    "streaming": {},
+    "streaming_updated": 1779711808.0271513
+  },
+  {
+    "title": "Oldboy",
+    "year": 2005,
+    "genre": "Action",
+    "rating": 8.2,
+    "director": "Park Chan-wook",
+    "cast": "Choi Min-sik, Yoo Ji-tae, Kang Hye-jung, Kim Byeong-ok, Ji Dae-han",
+    "plot": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate man seeks revenge on his captors.",
+    "poster": "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+    "runtime": 120,
+    "trailer": "tAaBkFChaRg",
+    "streaming": {
+      "GB": [
+        224,
+        99,
+        596,
+        287,
+        2041
+      ]
+    },
+    "streaming_updated": 1779711808.105792
+  },
+  {
+    "title": "Neon Genesis Evangelion: The End of Evangelion",
+    "year": 2004,
+    "genre": "Sci-Fi",
+    "rating": 8.3,
+    "director": "Hideaki Anno",
+    "cast": "Megumi Ogata, Megumi Hayashibara, Kotono Mitsuishi, Yuko Miyamura, Fumihiko Tachiki",
+    "plot": "SEELE orders an all-out attack on NERV, aiming to destroy the Evas before Gendo can advance his own plans for the Human Instrumentality Project. Shinji is pushed to the limits of his sanity as he is forced to decide the ",
+    "poster": "https://image.tmdb.org/t/p/w500/j6G24dqI4WgUtChhWjfnI4lnmiK.jpg",
+    "runtime": 87,
+    "trailer": "",
+    "streaming": {
+      "AU": [
+        8,
+        1796
+      ],
+      "US": [
+        8,
+        1796
+      ],
+      "GB": [
+        8,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779711808.1828434
+  },
+  {
+    "title": "Perfect Blue",
+    "year": 2001,
+    "genre": "Thriller",
+    "rating": 8.3,
+    "director": "Satoshi Kon",
+    "cast": "Junko Iwao, Rica Matsumoto, Shiho Niiyama, Masaaki Okura, Shinpachi Tsuji",
+    "plot": "Rising pop star Mima quits singing to pursue a career as an actress. After she takes up a role on a popular detective show, her handlers and collaborators begin turning up murdered. Harboring feelings of guilt and haunte",
+    "poster": "https://image.tmdb.org/t/p/w500/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg",
+    "runtime": 82,
+    "trailer": "RrWausp8zDQ",
+    "streaming": {
+      "AU": [
+        1968
+      ],
+      "US": [
+        1825,
+        1899
+      ]
+    },
+    "streaming_updated": 1779711808.2715893
+  },
+  {
+    "title": "Léon: The Professional",
+    "year": 1995,
+    "genre": "Action",
+    "rating": 8.3,
+    "director": "Luc Besson",
+    "cast": "Jean Reno, Natalie Portman, Gary Oldman, Danny Aiello, Peter Appel",
+    "plot": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Befor",
+    "poster": "https://image.tmdb.org/t/p/w500/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
+    "runtime": 111,
+    "trailer": "DD-6bmOY__g",
+    "streaming": {
+      "AU": [
+        8,
+        21,
+        1796
+      ],
+      "NZ": [
+        8
+      ],
+      "CA": [
+        230,
+        1794,
+        2604
+      ]
+    },
+    "streaming_updated": 1779711808.3483825
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Roger Allers",
+    "cast": "Matthew Broderick, Moira Kelly, Jeremy Irons, Nathan Lane, Ernie Sabella",
+    "plot": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betra",
+    "poster": "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg",
+    "runtime": 89,
+    "trailer": "UgjEj5mXLlk",
+    "streaming": {
+      "AU": [
+        337
+      ],
+      "US": [
+        337
+      ],
+      "GB": [
+        337
+      ],
+      "NZ": [
+        337
+      ],
+      "CA": [
+        337
+      ]
+    },
+    "streaming_updated": 1779711808.430336
+  },
+  {
+    "title": "Apocalypse Now",
+    "year": 1979,
+    "genre": "Action",
+    "rating": 8.3,
+    "director": "Francis Ford Coppola",
+    "cast": "Martin Sheen, Marlon Brando, Frederic Forrest, Albert Hall, Laurence Fishburne",
+    "plot": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colon",
+    "poster": "https://image.tmdb.org/t/p/w500/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "runtime": 147,
+    "trailer": "9l-ViOOFH-s",
+    "streaming": {
+      "AU": [
+        21,
+        201,
+        1899,
+        1825
+      ],
+      "GB": [
+        1747
+      ],
+      "NZ": [
+        201
+      ],
+      "CA": [
+        2604
+      ]
+    },
+    "streaming_updated": 1779711808.50547
+  },
+  {
+    "title": "Le Trou",
+    "year": 1960,
+    "genre": "Thriller",
+    "rating": 8.3,
+    "director": "Jacques Becker",
+    "cast": "Michel Constantin, Jean Keraudy, Philippe Leroy, Raymond Meunier, Marc Michel",
+    "plot": "Four prison inmates have been hatching a plan to literally dig out of jail when another prisoner, Claude Gaspard, is moved into their cell. They take a risk and share their plan with the newcomer. Over the course of thre",
+    "poster": "https://image.tmdb.org/t/p/w500/xyZhiOz5NHVBUKlpioxjwajy7pm.jpg",
+    "runtime": 132,
+    "trailer": "g2Sbo6JpDsY",
+    "streaming": {
+      "US": [
+        258
+      ],
+      "GB": [
+        1747
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779711808.6059487
+  },
+  {
+    "title": "Paths of Glory",
+    "year": 1958,
+    "genre": "Action",
+    "rating": 8.3,
+    "director": "Stanley Kubrick",
+    "cast": "Kirk Douglas, Ralph Meeker, Adolphe Menjou, George Macready, Wayne Morris",
+    "plot": "A commanding officer defends three scapegoats on trial for a failed offensive that occurred within the French Army in 1916.",
+    "poster": "https://image.tmdb.org/t/p/w500/p7OHwomA8UOhe3EhckF2IetBTh9.jpg",
+    "runtime": 88,
+    "trailer": "FESvZ0HG2p4",
+    "streaming": {
+      "AU": [
+        588
+      ],
+      "US": [
+        257,
+        583,
+        636,
+        34,
+        2383
+      ],
+      "GB": [
+        2141
+      ],
+      "NZ": [
+        2141
+      ],
+      "CA": [
+        588
+      ]
+    },
+    "streaming_updated": 1779711808.7182653
+  },
+  {
+    "title": "Sunset Boulevard",
+    "year": 1950,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Billy Wilder",
+    "cast": "William Holden, Gloria Swanson, Erich von Stroheim, Nancy Olson, Fred Clark",
+    "plot": "A hack screenwriter writes a screenplay for a former silent film star who has faded into Hollywood obscurity.",
+    "poster": "https://image.tmdb.org/t/p/w500/zt8aQ6ksqK6p1AopC5zVTDS9pKT.jpg",
+    "runtime": 110,
+    "trailer": "ZQWqIA1-kvA",
+    "streaming": {
+      "US": [
+        257,
+        583,
+        34,
+        2383
+      ],
+      "GB": [
+        29,
+        591
+      ]
+    },
+    "streaming_updated": 1779711808.7954793
+  },
+  {
+    "title": "It's a Wonderful Life",
+    "year": 1948,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Frank Capra",
+    "cast": "James Stewart, Donna Reed, Lionel Barrymore, Thomas Mitchell, Henry Travers",
+    "plot": "George Bailey has spent his entire life giving to the people of Bedford Falls.  All that prevents rich skinflint Mr. Potter from taking over the entire town is George's modest building and loan company.  But on Christmas",
+    "poster": "https://image.tmdb.org/t/p/w500/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg",
+    "runtime": 131,
+    "trailer": "iLR3gZrU2Xo",
+    "streaming": {
+      "AU": [
+        448,
+        385
+      ],
+      "US": [
+        9,
+        2100
+      ],
+      "NZ": [
+        448
+      ],
+      "CA": [
+        531,
+        582,
+        2303,
+        2304
+      ]
+    },
+    "streaming_updated": 1779711808.8771298
+  },
+  {
+    "title": "The Great Dictator",
+    "year": 1940,
+    "genre": "Action",
+    "rating": 8.3,
+    "director": "Charlie Chaplin",
+    "cast": "Charlie Chaplin, Paulette Goddard, Jack Oakie, Reginald Gardiner, Henry Daniell",
+    "plot": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+    "poster": "https://image.tmdb.org/t/p/w500/1QpO9wo7JWecZ4NiBuu625FiY1j.jpg",
+    "runtime": 125,
+    "trailer": "i1C6qZVeFtA",
+    "streaming": {
+      "US": [
+        257,
+        1825,
+        258,
+        368,
+        1899,
+        2405
+      ],
+      "GB": [
+        9,
+        39,
+        2100
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779711808.951265
+  },
+  {
+    "title": "Modern Times",
+    "year": 1938,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Charlie Chaplin",
+    "cast": "Charlie Chaplin, Paulette Goddard, Henry Bergman, Tiny Sandford, Chester Conklin",
+    "plot": "A bumbling tramp desires to build a home with a young woman, yet is thwarted time and time again by his lack of experience and habit of being in the wrong place at the wrong time..",
+    "poster": "https://image.tmdb.org/t/p/w500/7uoiKOEjxBBW0AgDGQWrlfGQ90w.jpg",
+    "runtime": 87,
+    "trailer": "NNznUyDmSFc",
+    "streaming": {
+      "US": [
+        9,
+        258,
+        1899,
+        2100
+      ],
+      "GB": [
+        9,
+        39,
+        2100
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779711809.0312002
+  },
+  {
+    "title": "City Lights",
+    "year": 1931,
+    "genre": "Drama",
+    "rating": 8.3,
+    "director": "Charlie Chaplin",
+    "cast": "Charlie Chaplin, Virginia Cherrill, Florence Lee, Harry Myers, Al Ernest Garcia",
+    "plot": "A tramp falls in love with a beautiful blind flower girl. His on-and-off friendship with a wealthy man allows him to be the girl's benefactor and suitor.",
+    "poster": "https://image.tmdb.org/t/p/w500/bXNvzjULc9jrOVhGfjcc64uKZmZ.jpg",
+    "runtime": 87,
+    "trailer": "7vl7F8S4cpQ",
+    "streaming": {
+      "US": [
+        9,
+        1825,
+        258,
+        1899,
+        2100
+      ],
+      "GB": [
+        9,
+        39,
+        2100
+      ],
+      "CA": [
+        258
+      ]
+    },
+    "streaming_updated": 1779711809.1131098
   }
 ]
