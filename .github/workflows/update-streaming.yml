@@ -1,33 +1,25 @@
 name: Weekly Update — Streaming + New Titles
-
 on:
   schedule:
-    # 2am Monday Sydney time (AEST UTC+10 = 4pm Sunday UTC)
     - cron: '0 15 * * 0'
   workflow_dispatch:
-
 permissions:
   contents: write
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 60
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Install dependencies
         run: pip install requests aiohttp
-
       - name: Debug — list all files
         run: |
           echo "=== Repo files ==="
@@ -38,32 +30,52 @@ jobs:
           echo ""
           echo "=== JSON files ==="
           ls -la *.json 2>/dev/null || echo "No .json files"
-
       - name: Fetch new titles (100 movies + 40 TV shows)
         run: python3 fetch_new_titles.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-
       - name: Refresh movie streaming data
         run: python3 fetch_streaming.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-
       - name: Refresh TV streaming data
         run: python3 fetch_tv_streaming.py
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-
       - name: Rebuild movies.json + index.html
         run: python3 rebuild_app.py movie_database_streaming.json index.html
-
       - name: Rebuild tvshows.json
         run: python3 rebuild_tv.py
-
       - name: Commit and push updates
         run: |
           git config user.name  "MovieMatch Bot"
           git config user.email "moviematch-bot@users.noreply.github.com"
           git add movie_database_streaming.json index.html movies.json tvshows.json
           git diff --staged --quiet || git commit -m "Weekly update $(date +%Y-%m-%d) — new titles + streaming refresh"
+          git push
+
+  dedupe:
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run deduplication
+        run: python3 dedupe_database.py
+      - name: Rebuild after dedup
+        run: |
+          python3 rebuild_app.py movie_database_streaming.json index.html
+          python3 rebuild_tv.py
+      - name: Commit cleaned database
+        run: |
+          git config user.name "MovieMatch Bot"
+          git config user.email "moviematch-bot@users.noreply.github.com"
+          git add movie_database_streaming.json movies.json tvshows.json index.html
+          git diff --staged --quiet || git commit -m "Dedup clean $(date +%Y-%m-%d)"
           git push
