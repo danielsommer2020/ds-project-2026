@@ -43322,39 +43322,6 @@
     "streaming_updated": 1779596739.996107
   },
   {
-    "title": "Léon: The Professional",
-    "year": 1994,
-    "genre": "Action",
-    "rating": 8.5,
-    "director": "Luc Besson",
-    "cast": "Jean Reno, Gary Oldman, Natalie Portman, Danny Aiello",
-    "plot": "A 12-year-old girl is reluctantly taken in by a professional assassin after her family is murdered by a corrupt DEA agent.",
-    "poster": "https://image.tmdb.org/t/p/w500/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg",
-    "runtime": 111,
-    "trailer": "DD-6bmOY__g",
-    "streaming": {
-      "AU": [
-        8,
-        21,
-        1796
-      ],
-      "NZ": [
-        8
-      ],
-      "CA": [
-        230,
-        1794,
-        2604
-      ]
-    },
-    "ratings": {
-      "AU": "MA 15+",
-      "GB": "18",
-      "US": "R"
-    },
-    "streaming_updated": 1779596738.364012
-  },
-  {
     "title": "Immortal Beloved",
     "year": 1994,
     "genre": "Drama",
