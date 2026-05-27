@@ -154247,5 +154247,60 @@
       ]
     },
     "streaming_updated": 1779712223.6509902
+  },
+  {
+    "title": "I Swear",
+    "year": 2026,
+    "tmdb_id": 1317149,
+    "genre": "Drama",
+    "rating": 8.2,
+    "director": "Kirk Jones",
+    "cast": "Robert Aramayo, Maxine Peake, Peter Mullan, Shirley Henderson, Scott Ellis Watson",
+    "plot": "Diagnosed with Tourette Syndrome at 15, John Davidson navigates his way against the odds through troubled teenage years and into adulthood, finding inspiration in the kindness of others to discover his true purpose in li",
+    "poster": "https://image.tmdb.org/t/p/w500/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg",
+    "runtime": 121,
+    "trailer": "10ynpduiRpM",
+    "streaming": {
+      "GB": [
+        8,
+        1796
+      ]
+    },
+    "streaming_updated": 1779861704.9432309
+  },
+  {
+    "title": "Dracula",
+    "year": 2025,
+    "tmdb_id": 1246049,
+    "genre": "Romance",
+    "rating": 7.1,
+    "director": "Luc Besson",
+    "cast": "Caleb Landry Jones, Zoë Bleu Sidel, Christoph Waltz, Matilda De Angelis, Ewens Abid",
+    "plot": "In late 15th-century Eastern Europe, Prince Vlad II’s bride is brutally murdered. As a result, he renounces God and damns Heaven itself. Cursed with eternal life, Vlad is reborn as Dracula, an immortal warlord who defies",
+    "poster": "https://image.tmdb.org/t/p/w500/dYRqA50yd0nB3qBR7AtWEJJQ8q.jpg",
+    "runtime": 130,
+    "trailer": "hverb7siYJ8",
+    "streaming": {
+      "GB": [
+        9,
+        2100
+      ]
+    },
+    "streaming_updated": 1779861705.1753237
+  },
+  {
+    "title": "Graphic Desires",
+    "year": 2023,
+    "tmdb_id": 976912,
+    "genre": "Thriller",
+    "rating": 7.0,
+    "director": "Andy Edwards",
+    "cast": "David Wayman, Sian Altman, May Kelly, Ocean M Harris, Valis Volkova",
+    "plot": "When reclusive Franklin cheats on his partner with a mysterious girl he meets on a dating app, it becomes the start of a deadly obsession.",
+    "poster": "https://image.tmdb.org/t/p/w500/3BjLdTWRiHc1ISIZMFvToOmghOM.jpg",
+    "runtime": 90,
+    "trailer": "hK21ALZussc",
+    "streaming": {},
+    "streaming_updated": 1779861705.397362
   }
 ]
